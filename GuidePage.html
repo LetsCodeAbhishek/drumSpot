@@ -6,8 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        body{
+            background-image: url(bg3.jpg);
+            background-size: cover;
+        }
         .n1{
-            width: 500px;
+            width: 800px;
+            height: 80vh;
             display: flex;
             overflow-x: scroll;
             padding: 24px;
@@ -19,10 +24,15 @@
         .item{
             flex: 0 0 100%;
             scroll-snap-align: start;
-            background: lightblue;
+            background: rgb(250, 250, 250, .4);
             border-radius: 30px;
             padding: 20px;
         }
+        .item:hover{
+            color: white;
+            background-color: rgb(16, 14, 1);
+        }
+        
 
 
 
